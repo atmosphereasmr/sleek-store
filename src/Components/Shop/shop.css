@@ -1,0 +1,329 @@
+.shop-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-shop-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-section {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 30%;
+    height: 300px;
+    cursor: pointer;
+    animation: fade-in 0.5s forwards ease-in-out;
+}
+
+.item-off {
+    width: 30%;
+    height: 300px;
+    filter: opacity(0%);
+    transition: all 0.25s;
+    pointer-events: none;
+}
+
+.item-image {
+    width: 100%;
+    height: 200px;
+    background-image: url('https://images-na.ssl-images-amazon.com/images/I/6119DsGM59L._UY575_.jpg');
+    background-size: contain;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-title {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: auto;
+}
+
+.item-title-hover {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    color: gray;
+    text-decoration: underline;
+    font-size: auto;;
+}
+
+.item-blurb {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    color: gray;
+    font-size: 12px;
+}
+
+.quick-look {
+    width: 30%;
+    height: 30px;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 12px;
+    left: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.25s;
+}
+
+.quick-look-off {
+    width: 30%;
+    height: 30px;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+    color: transparent;
+    font-size: 12px;
+    left: 50%;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.25s;
+    pointer-events: none;
+}
+
+.shop-off {
+    display: none;
+}
+
+.chosen-item {
+    width: 60%;
+    height: 500px;
+    position: absolute;
+    top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fade-in 0.5s forwards ease-in-out;
+    filter: opacity(100);
+    flex-flow: row;
+}
+
+.chosen-item-section {
+    width: 30%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+}
+
+.chosen-item-pic {
+    width: 80%;
+    height: 300px;
+    background-image: url('');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.chosen-title {
+    width: 80%;
+    height: 15%;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid black;
+    text-align: left;
+}
+
+.chosen-desc {
+    width: 80%;
+    height: 90%;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+
+.order-box {
+    width: 60%;
+    height: 50px;
+    background: linear-gradient(#FAEBC8, #F0C14C);
+    margin-top: 5%;
+    border-radius: 5px;
+    border: 1px solid #A88734;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.order-box:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(135,118,11,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(135,118,11,1);
+    box-shadow: 0px 0px 5px 0px rgba(135,118,11,1);
+}
+
+.cart {
+    width: 20%;
+    height: 90%;
+    background-image: url('http://www.golfgearselect.com/wp-content/plugins/extendazon/images/shopping-cart-icon-bw.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.cart-text {
+    width: 40%;
+    height: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.go-back {
+    width: 8%;
+    height: 48px;
+    background-color: black;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-radius: 25px;
+    animation: fade-in 0.5s forwards ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.go-back:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.25s;
+}
+
+.price-font {
+    font-family: 'Lato', sans-serif;
+    color: #B14842;
+    font-size: 20px;
+}
+
+.specs-font {
+    font-family: 'Lato', sans-serif;
+    color: grey;
+    font-size: 16px;
+    width: 60%;
+    height: 30%;
+    text-align: left;
+    border-top: 1px solid grey;
+    margin-top: 3%;
+}
+
+@keyframes fade-in {
+    0% {filter: opacity(0);}
+    100% {filter: opacity(100);}
+}
+
+@media screen and (max-width: 320px) {
+    .go-back {width: 15% !important; bottom: 0px;}
+    .chosen-desc {font-size: 11px !important;}
+    .item-title {font-size: 12px !important;};
+}
+
+@media screen and (max-width: 375px) {
+    .chosen-desc {font-size: 12px;}
+    .item-title {font-size: 12px !important;};
+}
+
+@media screen and (max-width: 425px) {
+    .item-title {font-size: 12px;}
+    .shop-container {align-items: flex-start; flex-flow: column;}
+    .chosen-item {width: 100%; height: 600px; top: 400px; align-items: flex-start; flex-flow: column;}
+    .chosen-title {font-size: 14px;}
+    .chosen-desc {font-size: 12px; height: 100%;}
+    .specs-font {font-size: 12px;}
+    .footer {background-color: white;}
+    .go-back {width: 15%; font-size: 14px; top: 94%;}
+    .chosen-item-pic {height: 100%; border-bottom: 0px solid white !important;}
+    .chosen-item-section {width: 100%;}
+    .black-bar-section {width: 80%;}
+    .shop-section {width: 100%;};
+}
+
+@media screen and (min-width: 425px) {
+    .chosen-title {font-size: 14px;}
+    .chosen-desc {font-size: 12px; height: 100%;}
+    .specs-font {font-size: 12px;}
+    .item-title {font-size: 12px;};
+}
+
+@media screen and (min-width: 768px) {
+    .item-title {font-size: 14px;}
+    .chosen-title {font-size: 16px;}
+    .chosen-item-pic {width: 110%;}
+    .chosen-item {width: 100%;}
+    .chosen-desc {font-size: 13px;}
+    .go-back {width: 10%;}
+    .cart {width: 30%;}
+    .specs-font {font-size: 13px;}
+    .shop-section {width: 80%;};
+}
+
+@media screen and (min-width: 1024px) {
+    .chosen-title {font-size: 20px;}
+    .specs-font {font-size: 14px;}
+    .item-title {font-size: 16px;}
+    .chosen-desc {font-size: 14px;};
+}
+
+@media screen and (min-width: 1420px) {
+    .chosen-title {font-size: 22px;}
+    .specs-font {font-size: 16px;}
+    .item-title {font-size: 16px;}
+    .chosen-desc {font-size: 16px;};
+}
+
+@media screen and (min-width: 2560px) {
+
+}

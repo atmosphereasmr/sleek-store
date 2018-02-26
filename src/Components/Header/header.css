@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.black-bar {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-bar-section {
+    width: 60%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-bar {
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook-button {
+    width: 15%;
+    height: 100%;
+    background-image: url('../../Images/facebook-circle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.twitter-button {
+    width: 15%;
+    height: 100%;
+    background-image: url('../../Images/twitter-circle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.tumblr-button {
+    width: 15%;
+    height: 100%;
+    background-image: url('../../Images/tumblr-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.instagram-button {
+    width: 15%;
+    height: 100%;
+    background-image: url('../../Images/instagram-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.white-bar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+}
+
+.white-bar-section {
+    width: 60%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advert-box {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advert-box-section {
+    width: 60%;
+    height: 100%;
+    background-image: url('http://image.ibb.co/jg1aMS/gothic.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advert-1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.advert-2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.advert-3 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.home {
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.advert-1-pic {
+    width: 80%;
+    height: 60%;
+    background-size: contain;
+    background-position: center;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-repeat: no-repeat;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advert-2-pic {
+    width: 80%;
+    height: 60%;
+    background-size: contain;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61MUwhuSyLL._UY575_.jpg");
+    background-position: center;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-repeat: no-repeat;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advert-3-pic {
+    width: 80%;
+    height: 60%;
+    background-size: contain;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/6119DsGM59L._UY575_.jpg");
+    background-position: center;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-repeat: no-repeat;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advert-header {
+    width: 80%;
+    height: 10%;
+    background-color: black;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    cursor: pointer;
+}
+
+.tab:hover {
+    text-decoration: underline;
+}
+
+.featured-wrapper {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+}
+
+.featured-bar {
+    width: 50%;
+    height: 50px;
+    background-color: black;
+    border-radius: 25px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+    .black-bar-section {width: 80%;};
+}
+
+@media screen and (max-width: 375px) {
+    .advert-header {font-size: 11px;};
+}
+
+@media screen and (max-width: 425px) {
+    .social-bar {display: none;}
+    .advert-box {height: 300px;}
+    .advert-box-section {width: 100%;}
+    .tab {font-size: 14px;}
+    .featured-bar {font-size: 12px;}
+    .advert-header {font-size: 12px; width: 100%;}
+    .advert-1-pic {height: 40%; width: 100%;}
+    .advert-2-pic {height: 40%; width: 100%;}
+    .advert-3-pic {height: 40%; width: 100%;}
+    .featured-bar {bottom: 52%;}
+    .white-bar-section {width: 100%; justify-content: space-around;};
+}
+
+@media screen and (min-width: 768px) {
+    .facebook-button {width: 40%;}
+    .twitter-button {width: 40%;}
+    .tumblr-button {width: 40%;}
+    .instagram-button {width: 40%;}
+    .advert-box-section {width: 80%;}
+    .white-bar-section {width: 100%; justify-content: space-around;};
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 2560px) {
+
+}
