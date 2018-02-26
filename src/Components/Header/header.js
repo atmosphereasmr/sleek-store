@@ -79,7 +79,7 @@ export default class Header extends Component {
                 </div>
                 <div className="featured-wrapper">
                     <div className="featured-bar">
-                        <div>International Brands</div>
+                        <div>Featuring International Brands Such As -</div>
                     </div>
                 </div>
 

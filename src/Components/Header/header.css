@@ -190,7 +190,7 @@
 
 .advert-header {
     width: 80%;
-    height: 10%;
+    height: 40px;
     background-color: black;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -212,12 +212,12 @@
 
 .featured-wrapper {
     width: 100%;
-    height: 50px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 100px;
+    top: 110px;
 }
 
 .featured-bar {
