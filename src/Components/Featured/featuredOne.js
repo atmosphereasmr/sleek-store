@@ -13,7 +13,7 @@ export default class FeaturedOne extends Component {
         const tab3 = document.getElementById('womens-shoes')
         const tab4 = document.getElementById('womens-boots')
         const tab5 = document.getElementById('womens-heels')
-        tab.style = "text-decoration: underline"
+        tab.style = "text-decoration: none"
         tab2.style = "text-decoration: none"
         tab3.style = "text-decoration: none"
         tab4.style = "text-decoration: none"

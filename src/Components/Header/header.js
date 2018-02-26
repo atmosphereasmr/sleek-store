@@ -13,14 +13,14 @@ export default class Header extends Component {
         const header1 = document.getElementById('header-1')
         const header2 = document.getElementById('header-2')
         const header3 = document.getElementById('header-3')
-        boot1.style = "background-image: url('https://images-na.ssl-images-amazon.com/images/I/71lyfm1p3OL._UY575_.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;"
-        boot2.style = "background-image: url('https://images-na.ssl-images-amazon.com/images/I/61MUwhuSyLL._UY575_.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;"
-        boot3.style = "background-image: url('https://images-na.ssl-images-amazon.com/images/I/6119DsGM59L._UY575_.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;"
+        boot1.style = "width: 100%; height: 100%; background-image: url('https://images-na.ssl-images-amazon.com/images/I/71lyfm1p3OL._UY575_.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;"
+        boot2.style = "width: 100%; height: 100%; background-image: url('https://images-na.ssl-images-amazon.com/images/I/61MUwhuSyLL._UY575_.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;"
+        boot3.style = "width: 100%; height: 100%; background-image: url('https://images-na.ssl-images-amazon.com/images/I/6119DsGM59L._UY575_.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;"
         about.style = "width: auto; height: auto; background-color: transparent; color: white; border-top-right-radius: 0px; border-top-left-radius: 0px;"
         home.style = "width: auto; height: auto; background-color: transparent; color: white; border-top-right-radius: 0px; border-top-left-radius: 0px;"
-        header1.style = "width: 100%; height: auto; background-color: transparent; color: white; border-top-right-radius: 0px; border-top-left-radius: 0px;"
-        header2.style = "width: 100%; height: auto; background-color: transparent; color: white; border-top-right-radius: 0px; border-top-left-radius: 0px;"
-        header3.style = "width: 100%; height: auto; background-color: transparent; color: white; border-top-right-radius: 0px; border-top-left-radius: 0px;"
+        header1.style = "display: flex; justify-content: center; align-items: center; width: 100%; height: auto; background-color: transparent; color: white; border-top-right-radius: 0px; border-top-left-radius: 0px;"
+        header2.style = "display: flex; justify-content: center; align-items: center; width: 100%; height: auto; background-color: transparent; color: white; border-top-right-radius: 0px; border-top-left-radius: 0px;"
+        header3.style = "display: flex; justify-content: center; align-items: center; width: 100%; height: auto; background-color: transparent; color: white; border-top-right-radius: 0px; border-top-left-radius: 0px;"
     }
 
     homeClick() {
